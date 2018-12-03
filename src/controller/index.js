@@ -24,7 +24,6 @@ function Controller(model) {
     // CHANGE THE MODEL
     this.clickHandler = function(target) {
         self.model.counter += 1;
-        target.innerText = self.getModelCounter();
     };
 }
 
